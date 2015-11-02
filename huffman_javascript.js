@@ -1,6 +1,4 @@
-<html>
-<body>
-<script language = "JavaScript">
+// huffman data compression using JavaScript
 codes = {}
 function rel_freq(str){
     var freqs = {}
@@ -97,6 +95,4 @@ console.log = ('the compressed text\n', encoded)
 
 decoded = decode(trim, encoded);
 console.log('the decoded output is \n', decoded)
-</script>
-</body>
-</html>
+
